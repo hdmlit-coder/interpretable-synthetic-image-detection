@@ -1,3 +1,12 @@
 [submodule "external/FatFormer"]
 	path = external/FatFormer
 	url = https://github.com/Michel-liu/FatFormer.git
+[submodule "external/DeepfakeBench"]
+	path = external/DeepfakeBench
+	url = https://github.com/SCLBD/DeepfakeBench.git
+[submodule "external/GenImage"]
+	path = external/GenImage
+	url = https://github.com/GenImage-Dataset/GenImage.git
+[submodule "external/Awesome_CBM"]
+	path = external/Awesome_CBM
+	url = https://github.com/kkzhang95/Awesome_Concept_Bottleneck_Models.git
