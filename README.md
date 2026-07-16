@@ -1,21 +1,96 @@
 # Interpretable Synthetic Image Detection
 
-This repository contains the experimental work for my research on **concept-based representations for detecting AI-generated images**.
+This repository contains the experimental work for my PhD research on **concept-based representations for detecting AI-generated images**.
 
-The goal is to build a reproducible experimental baseline for synthetic image detection and then investigate how interpretable, concept-based representations can help explain why an image is classified as real or AI-generated.
+The objective of this research is to investigate how interpretable, concept-based representations can improve the transparency and trustworthiness of AI-generated image detection systems while maintaining competitive detection performance.
+
+---
 
 ## Research Motivation
 
-Recent generative models can produce highly realistic synthetic images. Many existing detectors focus mainly on classification performance, but they often provide limited explanation of the visual cues that support the decision.
+Recent advances in generative AI have made it possible to produce highly realistic synthetic images using diffusion models and GANs. Although numerous detection methods have been proposed, most existing approaches operate as black-box classifiers and provide little insight into **why** an image is classified as real or AI-generated.
 
-This project explores the following question:
+This research aims to bridge the gap between **high-performance detection** and **human-understandable explanations** by incorporating concept-based representations into the detection pipeline.
 
-> Can concept-based representations improve the interpretability of AI-generated image detection systems?
+The central research question is:
 
-## Objectives
+> **Can concept-based representations improve the interpretability of AI-generated image detection systems without significantly degrading detection performance?**
 
-- Review and compare existing repositories and baselines for synthetic image detection.
-- Reproduce results from selected published methods.
-- Identify commonly used datasets and evaluation metrics.
-- Build a first experimental test bed.
-- Investigate concept-based and interpretable extensions.
+---
+
+## Research Objectives
+
+- Review and compare state-of-the-art methods for AI-generated image detection.
+- Reproduce published detection methods to establish reliable experimental baselines.
+- Compare different architectures, datasets, and evaluation protocols.
+- Investigate explainability techniques and concept-based learning methods.
+- Design and implement a concept-based framework for interpretable AI-generated image detection.
+
+---
+
+## Current Progress
+
+### Literature Review
+- Comprehensive survey of AI-generated image detection methods.
+- Identification of research gaps in explainability and interpretability.
+
+### Reproduced Baselines
+
+#### 1. CIFAKE
+- Repository successfully reproduced.
+- Models reproduced:
+  - LeNet
+  - VGG16 (planned)
+  - Neural Network baseline (planned)
+- Dataset:
+  - CIFAKE
+
+#### 2. CLIP-Based Synthetic Image Detection
+- Repository successfully reproduced.
+- Models evaluated:
+  - `clipdet_latent10k_plus`
+  - `Corvi2023`
+  - Fusion model
+- Dataset:
+  - Synthbuster
+
+Obtained results:
+
+| Model | Average AUC |
+|--------|------------:|
+| clipdet_latent10k_plus | **0.871** |
+| Corvi2023 | **0.821** |
+| Fusion | **0.924** |
+
+---
+
+## Planned Research
+
+The next stage of this research focuses on developing a **Concept-Based Representation Framework** capable of:
+
+- discovering meaningful visual concepts,
+- associating concepts with AI-generated artifacts,
+- providing human-interpretable explanations,
+- maintaining competitive detection performance.
+
+---
+
+## Future Work
+
+- Reproduce additional state-of-the-art detectors.
+- Study Concept Bottleneck Models (CBMs).
+- Investigate TCAV and ACE for concept-based explanations.
+- Develop an interpretable concept extraction module.
+- Evaluate explainability and detection performance on multiple datasets.
+
+---
+
+## Author
+
+**Houda Malki**
+
+PhD Research Project
+
+Topic:
+
+**Concept-Based Representations for Detecting AI-Generated Images**
