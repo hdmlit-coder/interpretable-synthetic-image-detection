@@ -1,0 +1,22 @@
+image_id;image_path;label;generator;hand_anatomy;facial_consistency;text_readability;repeated_texture_patterns;object_boundary_consistency;background_coherence;annotator;notes
+real_001;data/pilot/real/real_001.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_002;data/pilot/real/real_002.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_003;data/pilot/real/real_003.png;0;real_RAISE_1k;0;0;N/A;0;0;0;HM;
+real_004;data/pilot/real/real_004.png;0;real_RAISE_1k;N/A;N/A;0;0;0;0;HM;
+real_005;data/pilot/real/real_005.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_006;data/pilot/real/real_006.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_007;data/pilot/real/real_007.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_008;data/pilot/real/real_008.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+real_009;data/pilot/real/real_009.png;0;real_RAISE_1k;0;0;1;0;0;0;HM;
+real_010;data/pilot/real/real_010.png;0;real_RAISE_1k;N/A;N/A;N/A;0;0;0;HM;
+synthetic_001;data/pilot/synthetic/synthetic_001.png;1;synthbuster;N/A;N/A;3;2;3;3;HM;The labels contain illegible or absent text. Multiple wooden objects have melted, fused, or structurally inconsistent boundaries, and the display layout lacks coherent object geometry and depth.
+synthetic_002;data/pilot/synthetic/synthetic_002.png;1;synthbuster;2;2;N/A;1;2;1;HM;The statues’ hands and facial features are malformed or poorly defined, especially on the left figure. Some limbs, drapery, and the bird merge ambiguously at their boundaries.
+synthetic_003;data/pilot/synthetic/synthetic_003.png;1;synthbuster;N/A;N/A;N/A;1;2;2;HM;The window frame and surrounding wall have overly soft, slightly warped boundaries. The furniture and plant areas blend into the background with inconsistent depth and scale.
+synthetic_004;data/pilot/synthetic/synthetic_004.png;1;synthbuster;N/A;N/A;N/A;3;2;3;HM;Vegetation, trees, and fence elements repeat with highly uniform shapes and spacing. The cliffs, shoreline, and distant valley have implausibly smooth geometry and inconsistent depth, creating severe overall scene incoherence.
+synthetic_005;data/pilot/synthetic/synthetic_005.png;1;synthbuster;N/A;N/A;N/A;2;3;2;HM;The carousel horses, poles, and decorative elements contain repeated forms and textures. Several horse bodies, legs, harnesses, and structural parts are fused or anatomically incoherent, with inconsistent depth around the carousel interior.
+synthetic_006;data/pilot/synthetic/synthetic_006.png;1;synthbuster;N/A;N/A;N/A;2;2;1;HM;The mossy mounds repeat with unusually similar rounded forms and textures. Several water-vegetation boundaries appear soft or fused, especially in the foreground.
+synthetic_007;data/pilot/synthetic/synthetic_007.png;1;synthbuster;N/A;N/A;N/A;3;1;2;HM;The vegetation contains extensive repetition of near-identical leaf clusters, hanging strands, and rounded plant forms. The wall’s dense, highly uniform plant coverage and spatial arrangement appear unnaturally constructed.
+synthetic_008;data/pilot/synthetic/synthetic_008.png;1;synthbuster;N/A;N/A;N/A;1;2;2;HM;Several rooflines, pillars, and their reflections appear softened or fused. The building’s geometry and mirrored structure are partially incoherent, especially toward the right side.
+synthetic_009;data/pilot/synthetic/synthetic_009.png;1;synthbuster;2;2;N/A;1;2;2;HM;The foreground person’s hands and facial features are poorly resolved and anatomically unclear. Several statue, column, and arch boundaries appear warped or fused, and the central architectural depth is inconsistent.
+synthetic_010;data/pilot/synthetic/synthetic_010.png;1;synthbuster;N/A;N/A;N/A;2;2;3;HM;"The grass and cloud textures show noticeable repetition and unnatural blending. The upper-right mountain appears to merge implausibly with the clouds, and the overall sky–land composition has severe spatial inconsistencies.
+"
