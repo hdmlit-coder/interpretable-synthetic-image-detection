@@ -1,0 +1,11 @@
+{
+  "total_images": 200,
+  "manual_applicable_images": 46,
+  "ocr_detected_text_images": 200,
+  "evaluated_images": 46,
+  "ocr_coverage_of_manual_applicable": 1.0,
+  "exact_accuracy": 0.2391304347826087,
+  "within_one_accuracy": 0.5,
+  "mean_absolute_error": 1.4130434782608696,
+  "quadratic_weighted_kappa": -0.021732182806008415
+}
