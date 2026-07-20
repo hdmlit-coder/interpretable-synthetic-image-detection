@@ -1,0 +1,7 @@
+concept,dalle2,dalle3,firefly,midjourney-v5,real_RAISE_1k,stable-diffusion-xl
+hand_anatomy,2.0,1.0,1.2,1.0,0.0,1.6666666666666667
+facial_consistency,,1.0,1.25,1.0,0.0,1.5
+text_readability,2.2,2.7142857142857144,2.6666666666666665,2.6666666666666665,0.7083333333333334,2.5
+repeated_texture_patterns,1.5,2.55,1.7,1.6,0.0,1.95
+object_boundary_consistency,2.15,1.75,1.8,1.45,0.0,1.9
+background_coherence,1.9,2.1,1.75,1.35,0.0,1.85

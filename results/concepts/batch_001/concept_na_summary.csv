@@ -1,0 +1,7 @@
+concept,na_count,na_percentage
+hand_anatomy,161,80.5
+facial_consistency,160,80.0
+text_readability,154,77.0
+repeated_texture_patterns,0,0.0
+object_boundary_consistency,0,0.0
+background_coherence,0,0.0

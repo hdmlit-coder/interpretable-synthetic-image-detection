@@ -1,0 +1,7 @@
+concept,real,synthetic,difference
+hand_anatomy,0.0,1.25,1.25
+facial_consistency,0.0,1.1875,1.1875
+text_readability,0.7083333333333334,2.5454545454545454,1.837121212121212
+repeated_texture_patterns,0.0,1.86,1.86
+object_boundary_consistency,0.0,1.81,1.81
+background_coherence,0.0,1.79,1.79
