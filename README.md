@@ -84,7 +84,31 @@ The next stage of this research focuses on developing a **Concept-Based Represen
 - Evaluate explainability and detection performance on multiple datasets.
 
 ---
+## Project Status
 
+### Phase 1 – Baselines
+- ✅ CIFAKE reproduced
+- ✅ CLIP-Based Synthetic Image Detection reproduced
+
+### Phase 2 – Concept Learning
+- ✅ Concept vocabulary
+- ✅ Concept definitions
+- ✅ Pilot dataset (20 images)
+- ✅ Pilot annotation
+- ✅ Pilot analysis
+
+### Phase 3 – Expanded Concept Dataset
+- ✅ 200 manually annotated images
+- ✅ Balanced real/synthetic dataset
+- ✅ Multi-generator coverage
+- ✅ Concept analysis pipeline
+
+### Upcoming
+- Automatic concept prediction
+- Concept Bottleneck Model
+- Evaluation against baseline detectors
+  
+---
 ## Author
 
 **Houda Malki**
